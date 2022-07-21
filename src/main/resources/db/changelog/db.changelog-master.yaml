@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: baktybekdoskul
+  - include:
+      file: migrations/001_create_tables.sql
+      relativeToChangelogFile: true
